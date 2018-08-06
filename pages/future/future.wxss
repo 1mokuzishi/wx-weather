@@ -1,0 +1,43 @@
+.layout {
+  width: 100%;
+}
+.layout .list {
+  width: 100%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.layout .list .row {
+  width: 100%;
+  height: 150;
+ 	/* height: 200px; */
+	background-color:#f0f0f0;
+				/*水平偏移  垂直偏移 模糊度 颜色*/
+	box-shadow: 0px 1px 5px  skyblue; /*阴影属性*/
+  text-align: center;
+  padding: 20px 0;
+  box-sizing:border-box;
+  margin-top:20px;
+}
+.layout .list .row .date {
+  text-align: center;
+}
+.layout .list .row .temperature {
+  font-size: 26px;
+}
+.layout .list .row .weather {
+  line-height: 30px;
+  font-size: 26px;
+  
+}
+
+
+
+.layout .list .row image {
+  position: relative;
+    left: 40px;
+    float: left;
+    width:30px;
+    height: 30px;
+}
+  

@@ -1,0 +1,13 @@
+<view class='layout'>
+  <view class='list'>
+  <block wx:for="{{weatherData}}" wx:key="index">
+        <view class='row'>
+              <view class='date'>{{item.date}}</view>
+              <view class='temperature'>{{item.temperature}}</view>
+              <view class='weather'><image src="{{item.dayPictureUrl}}"></image>{{item.weather}}</view>
+              <view class='wind'>{{item.wind}}</view>
+              
+        </view>
+  </block>    
+  </view>
+</view>

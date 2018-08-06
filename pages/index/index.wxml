@@ -1,0 +1,36 @@
+<view class='layout'>
+	<!-- 标题 -->
+	<view class="title">
+	------
+	</view>
+	<!--  输入框 -->
+	<view class="search"> 
+			<input type="text" placeholder="请输入城市名.例:成都" bindinput="bindKeyInput"/>
+      <button   bindtap='click_weather'>查询</button>
+	</view>
+  <view class="line"></view>
+
+       
+
+  	
+	<!-- 显示天气信息 -->
+	<view class="msgbox">
+		<view class="content">
+    	<view class="city">{{weatherData['城市']}}</view>
+    	<view class="temp">
+         <image src="{{weatherData['dayPictureUrl']}}"></image>
+         {{weatherData['温度']}}
+      </view>
+      <view class="weather">{{weatherData['天气']}}</view>
+      <view>{{weatherData['日期']}}</view>
+      <view>PM2.5:{{weatherData['PM2.5']}}</view>
+			<view>{{weatherData['风力']}}</view>
+    
+      <navigator url="../future/future?location={{jwd}}">
+      未来几天天气
+      </navigator>
+     
+		</view>
+	</view>
+	
+</view>

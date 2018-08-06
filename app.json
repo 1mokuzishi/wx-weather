@@ -1,0 +1,20 @@
+{
+  "pages":[   
+
+    "pages/index/index",
+    "pages/future/future"
+   
+    
+
+ 
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#123456",
+    "navigationBarTitleText": "Hello",
+    "navigationBarTextStyle":"white"
+  }
+ 
+  
+ 
+}

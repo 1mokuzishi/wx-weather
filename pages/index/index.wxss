@@ -1,0 +1,87 @@
+.layout {
+	width:100%;
+}
+.line{
+  border:1px solid grey;
+}
+.layout .title {
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.layout .search {
+	width:100%;
+	height:50px;
+	display: flex;/* 弹性属性 */
+  line-height: 50px;
+   padding:5px;
+}
+.layout .search input {
+	flex:auto;
+	height: 30px;
+	background-color:#f0f0f0;
+	padding:0 10px;
+	box-sizing:border-box;
+  border-radius: 20px;
+   margin-left:20px;
+}
+.layout .search button {
+  margin-left:20px;
+  margin-right:20px;
+  background-color:#f0f0f0;
+  font-size: 12px;
+  width: 60px;
+	height: 30px;
+	border-radius:30px;
+}
+.layout .search button::after{ border: none; }
+
+
+.layout .msgbox {
+	width: 100%;
+	padding: 20px 20px;
+	box-sizing:border-box;
+}
+.layout .msgbox .content {
+  width:100%;
+	/* height: 200px; */
+	background-color:#f0f0f0;
+				/*水平偏移  垂直偏移 模糊度 颜色*/
+	box-shadow: 0px 1px 5px  skyblue; /*阴影属性*/
+  text-align: center;
+  padding: 20px 0;
+  box-sizing:border-box;
+}
+.layout .msgbox .content view {
+  font-size: 18px;
+  text-align: center;
+	padding: 5px 0;
+	box-sizing:border-box;
+}
+
+.layout .msgbox .content .city {
+    font-size: 25px;
+}
+.layout .msgbox .content .temp {
+  line-height: 40px;
+  font-size: 36px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.layout .msgbox .content view image{
+    position: relative;
+    left: 40px;
+    float: left;
+    width:42px;
+    height: 36px;
+    
+}
+
+.layout .msgbox .content navigator {
+  margin-top:10px; 
+  text-align: center;
+  color:#0000ff;
+  text-decoration:underline;
+}
